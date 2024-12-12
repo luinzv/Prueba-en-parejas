@@ -1,0 +1,92 @@
+/* FUENTES PERSONALIZADAS */
+
+/* ESTILOS GENERALES */
+body{
+    font-family: "Sofia Sans";
+    text-decoration: none;
+}
+
+.container-fluid .row{
+    background: linear-gradient(to right top, #ffffff, #F1F1F1); /* Gradiente de blanco a gris claro */
+    background-repeat: no-repeat; /* Evita repeticiones */
+    background-size: cover; /* Escala para cubrir todo el contenedor */
+    background-position: center; /* Centra el gradiente */
+}
+
+.container-fluid .row{
+    height: 550px;
+}
+
+.navbar-brand img{
+    width: 70px;
+    transition: transform 0.6s ease;
+}
+
+.navbar-brand:hover img{
+    transform: rotateY(180deg);
+}
+.navbars{
+    border-bottom: 1px solid black;
+}
+
+.container-ingresar{
+    margin: 30px;
+}
+
+.container-login{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.container-register{
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.background-nav{
+    background: #E63950;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: white;
+}
+
+.background-nav .nav-link {
+    color: white; 
+}
+
+.navbar-nav .nav-item:hover .nav-link.active {
+    background: white;
+    color: #E63950;
+}
+
+.background-nav .nav-link:hover {
+    background: white;
+    color: #E63950; 
+}
+
+.navbar-nav .nav-item:hover .nav-link.active{
+    background: white;
+    color: #E63950;
+}
+
+#dropdownMenuButton img{
+    width: 30px !important;
+}
+
+.dropdown .dropdown-menu{
+    left: -290%;
+    top: 5%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
