@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active background-nav" aria-current="page" href="#">POKEDEX</a>
+                        <a class="nav-link active background-nav" aria-current="page" href="inicio.php">POKEDEX</a>
                     </li>
                     <li class="nav-item background-nav">
                         <a class="nav-link" href="#">NOTICIAS</a>
